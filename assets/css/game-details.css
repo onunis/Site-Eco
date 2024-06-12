@@ -1,0 +1,146 @@
+
+/* Estilos específicos da página de detalhes do jogo */
+.game-details-container {
+  display: flex;
+  padding: 20px;
+}
+
+.main-game-info {
+  flex: 3;
+  margin-right: 20px;
+}
+
+.recommended-games {
+  flex: 1;
+}
+
+.game-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.game-header h2 {
+  margin: 0;
+}
+
+.game-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.game-info {
+  margin-top: 20px;
+}
+
+.game-info p {
+  margin: 10px 0;
+}
+
+.game-requirements {
+  margin-top: 20px;
+}
+
+.game-requirements h3 {
+  margin-bottom: 10px;
+}
+
+.game-requirements ul {
+  list-style: none;
+  padding: 0;
+}
+
+.screenshots {
+  margin-top: 20px;
+}
+
+.screenshots h2 {
+  margin-bottom: 10px;
+}
+
+#screenshots-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#screenshots-container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.user-reviews {
+  margin-top: 20px;
+}
+
+.user-reviews h2 {
+  margin-bottom: 10px;
+}
+
+#reviews-container .user-review {
+  margin-bottom: 15px;
+}
+
+#recommended-games-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#recommended-games-list .game-card {
+  display: flex;
+  align-items: center;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+#recommended-games-list .game-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#recommended-games-list .game-card:hover {
+  background-color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.main-content {
+  width: 80%;
+  margin-right: 20px;
+}
+
+.game-info h2, .game-info h3 {
+  color: #15803d;
+}
+
+.game-image img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.screenshot-container img {
+  width: 100%;
+  max-width: 200px;
+  margin: 10px;
+}
+
+.game-info {
+  padding: 10px;
+  text-align: center;
+}

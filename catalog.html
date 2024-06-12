@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/catalog.css">
+    <title>Catálogo</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="logo">
+            <a href="index.html"><h1>Eco!</h1></a>
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="catalog.html" class="nav-link">CATALOGO</a></li>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">SOBRE</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">FALE CONOSCO</a></li>
+            </ul>
+        </div>
+        <div class="login-button">
+            <button><a href="login.html">Entrar</a></button>
+        </div>
+    </nav>
+
+    <section class="catalog-section">
+        <h2>Catálogo de Jogos</h2>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Pesquisar jogos...">
+            <button id="search-button">Pesquisar</button>
+        </div>
+        <div class="genre-selection">
+            <label for="genre-select">Escolha um Gênero:</label>
+            <select id="genre-select">
+                <option value="">Todos</option>
+                <!-- Os gêneros serão carregados aqui -->
+            </select>
+        </div>
+        <div class="game-list" id="catalog-game-list">
+            <!-- Jogos filtrados serão carregados aqui -->
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="assets/js/catalog.js"></script>
+</body>
+</html>

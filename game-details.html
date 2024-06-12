@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/game-details.css">
+    <title>Game Details</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="logo">
+            <a href="index.html"><h1>Eco!</h1></a>
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="catalog.html" class="nav-link">CATALOGO</a></li>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">SOBRE</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">FALE CONOSCO</a></li>
+            </ul>
+        </div>
+        <div class="login-button">
+            <button><a href="login.html">Entrar</a></button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="main-content">
+            <div class="game-info">
+                <h2 id="game-title">Nome do Jogo</h2>
+                <div class="game-image">
+                    <img id="game-image" src="https://via.placeholder.com/400" alt="Nome do Jogo">
+                </div>
+                <p><strong>Rating:</strong> <span id="game-rating">4.5</span></p>
+                <p><strong>Lançamento:</strong> <span id="game-release-date">2023-01-01</span></p>
+                <p id="game-description">Descrição do jogo lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+
+                <div class="requirements">
+                    <h3>Requisitos Mínimos</h3>
+                    <ul id="min-requirements">
+                        <li>N/A</li>
+                    </ul>
+                    <h3>Requisitos Recomendados</h3>
+                    <ul id="rec-requirements">
+                        <li>N/A</li>
+                    </ul>
+                </div>
+
+                <div class="screenshots">
+                    <h3>Capturas de Tela</h3>
+                    <div id="screenshots-container" class="screenshot-container"></div>
+                </div>
+
+                <div class="user-reviews">
+                    <h3>Avaliações dos Usuários</h3>
+                    <div id="reviews-container"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="assets/js/game-details.js"></script>
+</body>
+</html>

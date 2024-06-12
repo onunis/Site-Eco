@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#15803d;
+    padding: 15px 20px;
+}
+
+.logo h1 {
+    color:white;
+    margin: 0;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.nav-list ul {
+    list-style: none;
+    display: flex;
+    padding: 0 10px;
+    margin: 10px;
+
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.login-button button {
+    background-color: white;
+    color: #15803d;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.login-button a {
+    color: #15803d;
+    text-decoration: none;
+    height: 10px;
+    font-size: large;
+}
+
+.titulo_sobre{
+    text-align: center;
+    text-decoration:underline #16a34a;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.sobre{
+    margin: auto;
+    width: 90%;
+}
+
+.contato{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.email{
+    display: flex;
+}
+
+.email p{
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+
+.email img{
+    width: 50px;
+    margin-left: 10px;
+}
+
+.zap{
+    display: flex;
+}
+
+.zap{
+    display: flex;
+    margin-top: 7px;
+}
+
+.zap p{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.zap img{
+    width: 70px;
+}
+
+h2{
+    text-decoration: underline #16a34a;
+}
+
+.container-contato{
+    display: grid;
+    place-items: center;
+}
+
+.footer{
+    background-color: #15803d;
+    padding: 2px;
+  }
+
+  .footer h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white
+  }
+
+  .footer h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

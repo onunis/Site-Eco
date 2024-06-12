@@ -1,0 +1,39 @@
+.catalog-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 10px;
+  border: none;
+  background-color: #15803d;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.genre-selection {
+  margin-bottom: 20px;
+}
+
+.genre-selection label {
+  margin-right: 10px;
+}
+
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
